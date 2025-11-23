@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "custom-calculator-mcp"
+name = "simple-calculator-mcp"
 version = "0.1.0"
-description = "A Model Context Protocol server with custom calculation tools"
+description = "A simple MCP server with basic calculation tools"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [
@@ -25,7 +25,7 @@ dependencies = [
 ]
 
 [project.scripts]
-custom-calculator-mcp = "main:main"
+simple-calculator-mcp = "main:main"
 
 [project.urls]
 Homepage = "https://github.com/yourusername/custom-calculator-mcp"
