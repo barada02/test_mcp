@@ -389,6 +389,10 @@ def date_calculator(start_date: str, operation: str, value: int, unit: str = "da
         }
 
 
-if __name__ == "__main__":
-    # Run the MCP server
+def main():
+    """Main function for running the MCP server"""
     mcp.run()
+
+
+if __name__ == "__main__":
+    main()

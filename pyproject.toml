@@ -25,7 +25,7 @@ dependencies = [
 ]
 
 [project.scripts]
-custom-calculator-mcp = "server:main"
+custom-calculator-mcp = "main:main"
 
 [project.urls]
 Homepage = "https://github.com/yourusername/custom-calculator-mcp"
