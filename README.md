@@ -1,6 +1,6 @@
-# Simple Calculator MCP Server
+# Test MCP Server
 
-Basic MCP server with 3 simple calculation tools.
+Clean, simple MCP server with 3 basic calculation tools.
 
 ## Installation
 
@@ -10,6 +10,18 @@ pip install git+https://github.com/barada02/test_mcp.git
 
 ## Tools
 
-- `calculate`: Basic math expressions
-- `convert_temperature`: Temperature conversions  
-- `circle_area`: Circle calculations
+- **calculate**: Math expressions like `2 + 3 * sqrt(16)`
+- **convert_temperature**: Convert between Celsius, Fahrenheit, Kelvin  
+- **circle_area**: Calculate circle area and circumference
+
+## Usage
+
+After installation, run:
+```bash
+test-mcp
+```
+
+## Requirements
+
+- Python 3.10+
+- fastmcp>=2.13.1
